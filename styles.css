@@ -1,1 +1,72 @@
 /* Write your CSS here! */
+body{
+    margin: 8px;
+    display: block;
+    background-color:  #ffffe6;
+}
+
+/* For reading header */
+.mainHeading {
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+}
+.mainHeading:hover{
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    color: red;
+  }
+.mainHeading a{
+    text-decoration: none;
+    color: red;
+}
+
+/* Cloud image*/
+.cloud img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/*p tags
+p {
+    font-size: 1.3em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 50px;
+  }
+  */
+
+  /* Nike Lab */
+  .lab img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  }
+  .caption{
+    text-align: center;
+}
+
+/*Table*/
+.table img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.funParagraph{
+    color: green;
+}
+
+/*Footer*/
+.credit{
+    width: 200px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    
+}
